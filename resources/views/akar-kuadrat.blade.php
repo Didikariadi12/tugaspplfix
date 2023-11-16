@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #000">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark" style="background-color: #000">
         <div class="container-fluid">
             @if (Auth::check())
           <a class="navbar-brand" style="color: white" href="{{ route('akar-kuadrat-index') }}">Hai, {{ Auth::user()->nim }} </a>
